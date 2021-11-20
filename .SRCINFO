@@ -1,0 +1,25 @@
+pkgbase = python-httpcore
+	pkgdesc = A minimal HTTP client
+	pkgver = 0.14.3
+	pkgrel = 1
+	url = https://github.com/encode/httpcore
+	arch = any
+	license = BSD
+	checkdepends = hypercorn
+	checkdepends = python-curio
+	checkdepends = python-pproxy
+	checkdepends = python-pytest-asyncio
+	checkdepends = python-pytest-trio
+	checkdepends = python-trustme
+	checkdepends = uvicorn
+	makedepends = python-setuptools
+	makedepends = python-h2
+	depends = python-anyio
+	depends = python-h11
+	depends = python-sniffio
+	optdepends = python-h2: for HTTP/2 support
+	source = python-httpcore-0.14.3.tar.gz::https://github.com/encode/httpcore/archive/0.14.3.tar.gz
+	sha512sums = 05e92109839c2e2f7ec81fea9507fb15a12d1bf6ae92048170953b1cb0139237b81c892feff1bc3840e06887e8916cadcc4124725874344524e45e3640a00379
+	b2sums = 140c55af60f54ff13db958cecef50af2b8857837c00c2e5b1ec48d8866bc08146f608864a3dcaed0014505ba0ea10b8d457a763ecf434a0d40a2e11debdd4003
+
+pkgname = python-httpcore
